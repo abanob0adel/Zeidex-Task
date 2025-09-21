@@ -6,13 +6,23 @@ import Header from "@/components/layout/Header";
 const averta = localFont({
   src: [
     {
-      path: "../public/fonts/AvertaRegular.woff2",
+      path: "../public/fonts/AvertaStd-Light.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/AvertaStd-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../public/fonts/AvertaExtraBold.woff2",
-      weight: "800",
+      path: "../public/fonts/AvertaStd-Semibold.woff2",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/AvertaStd-Bold.woff2",
+      weight: "700",
       style: "normal",
     },
   ],

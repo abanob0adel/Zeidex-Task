@@ -7,7 +7,8 @@
   --color-primary: #2c7bf4;
   --color-primary-light: #e7f0ff;
   --box-shadow-color: rgba(44, 123, 244, 0.3);
-
+  --color-link: #646e7d;
+  --color-button: #646e7d;
   --font-averta: var(--font-averta);
 
   --radius: 0.625rem;
@@ -81,6 +82,8 @@
   --color-primary: var(--color-primary);
   --color-primary-light: var(--color-primary-light);
   --color-box-shadow-color: var(--box-shadow-color);
+  --color-color-link: var(--color-link);
+  --color-color-button: var(--color-button);
   --font-sans: var(--font-averta), system-ui, sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
