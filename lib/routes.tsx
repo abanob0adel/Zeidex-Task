@@ -7,6 +7,7 @@ const routes = {
   Blog: "#",
   Help: "#",
   Login: "#",
+  JobSearch: "/job-search",
 } as const;
 
 export default routes;
