@@ -1,4 +1,5 @@
 import FormSearch from "@/components/JobsSearch/FormSearch";
+import Tags from "@/components/JobsSearch/Tags";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -16,6 +17,7 @@ export default function JobSearch() {
           America and find your dream job.
         </p>
         <FormSearch />
+        <Tags />
       </div>
     </>
   );
