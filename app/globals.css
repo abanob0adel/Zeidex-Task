@@ -180,7 +180,8 @@ body {
   }
 }
 body {
-  background-image: url(/city_landscape.webp);
+  @apply bg-background text-foreground antialiased;
+  background-image: url(/city_landscape.png);
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;

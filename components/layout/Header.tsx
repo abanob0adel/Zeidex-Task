@@ -11,6 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
+import ThemeToggle from "@/hooks/ThemeToggle";
 export default function Header() {
   return (
     <>
@@ -40,6 +41,7 @@ export default function Header() {
             <Button asChild>
               <Link href={routes?.Login}>Login</Link>
             </Button>
+            <ThemeToggle />
             <div className="lg:hidden block">
               <Sheet>
                 <SheetTrigger>
